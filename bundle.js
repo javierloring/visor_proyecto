@@ -81958,4 +81958,4 @@ window.addEventListener("resize", () => {
 //Sets up the IFC loading
 const ifcLoader = new IFCLoader();
 //   ifcLoader.ifcManager.setWasmPath("../../../");
-ifcLoader.load("resources/rac_advanced_sample_project.ifc", (ifcModel) => scene.add(ifcModel.mesh));
+ifcLoader.load("resources/modelo2.ifc", (ifcModel) => scene.add(ifcModel.mesh));
